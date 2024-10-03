@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom{
-    
-    background: url("https://player.vimeo.com/video/429285632?h=922289f76b") no-repeat center center fixed;
-    background-size: cover;
-    
-}
