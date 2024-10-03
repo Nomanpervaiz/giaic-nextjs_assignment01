@@ -13,7 +13,6 @@ const App = () => {
         <About/>
         <Contact/>
     </section>
-
   )
 }
 
