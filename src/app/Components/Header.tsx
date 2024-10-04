@@ -49,7 +49,7 @@ export default function Header() {
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Button
                     
-                    className=" block rounded-lg border-none px-5 py-1 text-base font-semibold leading-7 text-white hover:bg-white hover:text-blue-500"
+                    className=" block rounded-lg bg-white text-blue-500 border-none px-5 py-1 text-base font-semibold leading-7 text-black hover:bg-white hover:text-blue-500"
                   >
                     Log in
                   </Button>
@@ -65,11 +65,7 @@ export default function Header() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  alt=""
-                  src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                  className="h-8 w-auto"
-                />
+                <Image className="h-12 w-12 " src={logohai} alt="Logo" />
               </a>
               <button
                 type="button"
